@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class UseAList {
+
   // Enable ALL warnings -Xlint:all
   // Warnings about "raw types"
   public static void breakAList(List/*<String>*/ al) {
@@ -28,5 +29,8 @@ public class UseAList {
     System.out.println("first element is " + names.get(0));
 
     String s = names.get(2);
+
+//    Object x = "Hello";
+//    String y = x;
   }
 }
